@@ -1,0 +1,81 @@
+##¿Que hacen los metodos get y cet?
+{
+~el metodo get sirve para modificar el valor de un atributo y el set para mostrarlo
+~sirven los dos para instanciar una clase
+=el metodo get sirve para mostar el valor del atributo y el set es para modificar el valor del atributo 
+~son clases diferentes 
+}
+
+##¿Cuales son los niveles de acceso en java? 
+{
+=Public , private, protected 
+~public , void , static
+~abstrac, public, private
+}
+
+##¿Que son atributos estaticos?
+{
+=La variable permanece en la memoria durante la duración del programa y su valor se conserva entre llamadas al procedimiento. 
+~La variable permanece en la memoria durante la duracion del programa y su valor se modifica
+~La variable permanece en el programa pero siempre son numeros 
+}
+
+##Del siguiente codigo como instanciaria la clase:
+Public class MiClase{
+  public int tipo
+}
+class AccesoDirecto {
+public static void main(string [] args){
+    <<MyClase mc = new Miclase;>>
+ }
+}
+
+## Del siguiente fragmento, que se imprimiria en consola 
+
+public class Main {
+    public static void main(String[] args) {
+        Persona persona = new Persona("Juan", 25);
+
+        System.out.println("Nombre: " + persona.getNombre());
+        System.out.println("Edad: " + persona.getEdad());
+
+        persona.setNombre("Carlos");
+        persona.setEdad(30);
+
+        System.out.println("Nuevo Nombre: " + persona.getNombre());
+        System.out.println("Nueva Edad: " + persona.getEdad());
+    }
+} 
+
+{
+Nombre: Juan
+Edad: 25
+Nuevo Nombre: Carlos
+Nueva Edad: 30
+}
+
+##La herencia en Java permite que una clase nueva herede atributos y métodos de una clase existente.{T}
+
+##El polimorfismo en Java permite que un mismo método actúe de manera diferente según el objeto que lo invoque.{T}
+
+## Cual es la unica clase que no se puede instanciar en java.
+
+{
+~las clases publicas
+=las clases abstractas 
+~las clases finales 
+}
+
+##Como se instancia una clase 
+{
+~mi_instancia = MiClase("valor1", "valor2") 
+=mi_instancia = NewMiClase("valor1", "valor2")
+~ninguna de las anteriores 
+}
+
+##¿Qué es un objeto en Java?
+{
+= Una instancia de una clase que puede tener atributos y métodos. 
+~ Un tipo de variable que almacena múltiples valores de diferentes tipos.
+~ Un conjunto de instrucciones que define el comportamiento de un programa.
+}
